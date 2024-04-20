@@ -9,8 +9,8 @@ Because of the small amount of data, only 1000 in total, the colleague requires 
 **Information processing**
 
 + Feature engineering
-    + document reading
-    + labeling
+    + Reading document 
+    + Labeling
     + Feature extraction
 + Vectorization and Segmentation
     + Vectorization
@@ -33,8 +33,8 @@ Because of the small amount of data, only 1000 in total, the colleague requires 
 
 
 + Prediction and Evaluation
-    + Print the accuracy
-    + Compare results to see which predictions are wrong
+    + Printing the accuracy
+    + Comparing results to see which predictions are wrong
 
 + Prediction and Evaluation
     + Model dump
