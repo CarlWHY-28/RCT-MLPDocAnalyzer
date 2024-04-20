@@ -45,4 +45,6 @@ Because of the small amount of data, only 1000 in total, the colleague requires 
 
 > Finally, the accuracy of the algorithm reached 95%
 
-> The obvious disadvantage of the word vector approach as a feature analysis is that sometimes the information in the article may just mention the RCTS of other studies rather than actually using them. And the confusion matrix also reflects that, the misjudgment rate in the case of Yes is much greater than that in the case of No. I still have a lot to learn and improve.
+> The obvious disadvantage of the word vector approach as a feature analysis is that sometimes the information in the article may just mention the RCTS of other studies rather than actually using them. And the confusion matrix also reflects that, the misjudgment rate in the case of Yes is much greater than that in the case of No.
+
+![image](https://raw.githubusercontent.com/whyBFU/RCT-MLPDocAnalyzer/main/p1.jpg)
