@@ -1,6 +1,6 @@
 # RCT_MLPDocAnalyzer Intro
 
-RCT_MLPDocAnalyzer is a document `analysis tool` to classify whether an article is a randomized controlled trial based on some of the article's properties, `RCT`for short. It is designed to reduce the workload of people in classifying articles, and is a small helper based on `machine learning` algorithms.
+RCT_MLPDocAnalyzer is a document `analysis tool` to classify whether an paper is a randomized controlled trial based on some of the paper's properties, `RCT`for short. It is designed to reduce the workload of people in classifying papers, and is a small helper based on `machine learning` algorithms.
 My application to help a colleague who can't write code solve this problem stems from my new enthusiasm for work XD.
 Because of the small amount of data, only 1000 in total, the colleague requires an accuracy rate of more than 90%, and the final accuracy reached 95%.
 
@@ -14,7 +14,7 @@ Because of the small amount of data, only 1000 in total, the colleague requires 
     + Feature extraction
 + Vectorization and Segmentation
     + Vectorization
-        + `CountVectorizer` is wildly used in `Natural Language Processing`, The reason for my choice is that humans use keyword analysis in most cases when judging whether an article is RCT.
+        + `CountVectorizer` is wildly used in `Natural Language Processing`, The reason for my choice is that humans use keyword analysis in most cases when judging whether an paper is RCT.
     + Segmentation of datasets
 
 
@@ -45,6 +45,6 @@ Because of the small amount of data, only 1000 in total, the colleague requires 
 
 > Finally, the accuracy of the algorithm reached 95%
 
-> The obvious disadvantage of the word vector approach as a feature analysis is that sometimes the information in the article may just mention the RCTS of other studies rather than actually using them. And the confusion matrix also reflects that, the misjudgment rate in the case of Yes is much greater than that in the case of No.
+> The obvious disadvantage of the word vector approach as a feature analysis is that sometimes the information in the paper may just mention the RCTS of other studies rather than actually using them. And the confusion matrix also reflects that, the misjudgment rate in the case of Yes is much greater than that in the case of No.
 
 ![image](https://raw.githubusercontent.com/whyBFU/RCT-MLPDocAnalyzer/main/p1.jpg)
