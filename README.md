@@ -1,6 +1,6 @@
 # RCT_MLPDocAnalyzer Intro
 
-RCT_MLPDocAnalyzer is a document `analysis tool` to classify whether an paper is a randomized controlled trial based on some of the paper's properties, `RCT`for short. It is designed to reduce the workload of people in classifying papers, and is a small helper based on `machine learning` algorithms.
+RCT_MLPDocAnalyzer is a paper `analysis tool` to classify whether a paper is a randomized controlled trial based on some of the paper's properties, `RCT`for short. It is designed to reduce the workload of people in classifying papers, and is a small helper based on `machine learning` algorithms.
 My application to help a colleague who can't write code solve this problem stems from my new enthusiasm for work XD.
 Because of the small amount of data, only 1000 in total, the colleague requires an accuracy rate of more than 90%, and the final accuracy reached 95%.
 
