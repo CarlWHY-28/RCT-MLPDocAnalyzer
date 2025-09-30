@@ -59,8 +59,6 @@ def extract_features(json_obj):
     full_text = ' '.join(texts)
     return full_text
 
-
-# 标记提取
 def extract_label(json_obj):
     # This is the label field, which is used to determine whether it is an RCT
     return json_obj.get('If RCT or not') == 'Yes'
@@ -74,7 +72,6 @@ def plot_confusion_matrix(y_true, y_pred, title='Confusion Matrix', cmap=plt.cm.
     plt.xlabel('Predicted')
     plt.show()
 
-# 主函数
 def main():
     doc1_path = 'output501-1000.docx'
     doc2_path = 'output101-500.docx'
